@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/pokebola.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Pokemons Iniciais</h1>
+        <p>Tudo o que voce precisa saber sobre pokemons!</p>
+    </header>
+    <nav>
+        <a href="https://www.pokemon.com/br/pokedex/charmander" target="_blank">Charmander</a>
+        <a href="https://www.pokemon.com/br/pokedex/bulbasaur" target="_blank">Bulbassauro</a>
+        <a href="https://www.pokemon.com/br/pokedex/squirtle" target="_blank">Squirtle</a>
+    </nav>
+    <main>
+        <h2>Quais são os pokémons iniciais?</h2>
+        <p>Quando um garoto ou garota completa seu décimo aniversário, ele pode iniciar uma jornada Pokémon. Para isso, o jovem treinador deve escolher um dos Pokémon iniciais de sua região, comparecendo ao laboratório de sua cidade, onde o professor ou professora responsável pela distribuição dos Pokémon iniciais estará aguardando.</p>
+        <p>Os pokemons iniciais são conhecidos como: Charmander, Squirtle e Bulbassauro!</p>
+        <h3>Charmander</h3>
+        <section class="charmander">
+                <img src="img/char.png" alt="charmander">
+                <p>Charmander é descrito como o "Lizard Pokémon"ou Pokémon Lagarto. Charmander tem na ponta de sua cauda uma pequena chama que é a fonte de seus poderes e que queima intensamente, sem parar. Dizem que o humor de um Charmander é medido de acordo com a intensidade de sua chama. Ao mesmo tempo que ele pode perder o controle e se revoltar até mesmo contra o treinador, Charmander também é uma figura carismática e com um visual muito fofo.</p>
+
+        </section>
+        <h3>Bulbassauro</h3>
+        <section class="bulbassauro">
+            <img src="img/bulb.png" alt="bulbassauro">
+                <p>Conhecida como a Semente Pokémon, Bulbasaur parece um pequeno dinossauro de cócoras que caminha sobre quatro patas e tem uma grande fábrica bulbo em suas costas que é capaz de atirar sementes de fora. Ele também tem grandes olhos vermelhos e tem dentes muito afiados. Sua pele tem uma cor turquesa clara com manchas verde-escuras. Ele tem três pregos em todas as suas quatro patas. A característica mais notável, contudo, é a lâmpada acima mencionado sobre a sua parte traseira, que como o Dex estados, foi plantada em que no momento do nascimento.</p>
+
+        </section>
+        <h3>Squirtle</h3>
+        <section class="squirtle">
+            <img src="img/squi.png" alt="squirtle">
+                <p>Squirtle é um pequeno Pokémon, azul-claro com uma aparência semelhante ao de uma tartaruga. Como tartarugas, Squirtle tem um escudo que cobre seu corpo com orifícios que permitem que seus membros, cauda e cabeça para ser exposto. Ao contrário de uma tartaruga, Squirtle é normalmente bípede. Squirtle tem as capacidade, o que aumenta o poder de seus ataques do tipo água em 150%, se a sua saúde cai para 33% ou abaixo. Squirtle também tem a capacidade natural de atirar água de sua boca, que é onde a maior parte de seus ataques vem.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Site criado por Leticia Maia</p>
+        <button onclick="contarCliques()">Clique aqui</button><p>Você clicou <span id="contador">0</span> vezes.</p><script>var contador = 0;function contarCliques() {contador++;document.getElementById("contador").innerHTML = contador;}</script>
+    </footer>
+</body>
+</html>
