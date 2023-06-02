@@ -48,18 +48,16 @@ nav{
 }
 
 nav > a{
-    margin-right: 20px;
+    padding: 10px;
     color: white;
     font-family: var(--fonte-padrao);
     text-decoration: none;
-    font-size: 0.9em;
     font-weight: bold;
 }
 
 nav > a:hover{
     background-color: cornflowerblue;
     color: rgb(51, 74, 117);
-    padding: 5px;
     border-radius: 5px;
 }
 
@@ -99,11 +97,9 @@ main p{
 section{
     border-radius: 0px 0px 5px 5px;
     padding: 10px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    margin: 0px 20px 5px 20px;
-    min-width: 500px;
+    margin: 0px 20px 25px 20px;
 
 }
 
@@ -140,8 +136,7 @@ h3{
 
 .rolagem{
     overflow-y: scroll;
-    min-width: 300px;
-    min-height: 200px;
+    max-height: 300px;
 }
 
 footer{
@@ -150,4 +145,5 @@ footer{
     background-color: var(--logo-dark-blue);
     font-family: var(--fonte-padrao);
     margin-top: 30px;
+    
 }
