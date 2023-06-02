@@ -103,6 +103,7 @@ section{
     display: flex;
     justify-content: center;
     margin: 0px 20px 5px 20px;
+    min-width: 500px;
 
 }
 
@@ -135,6 +136,12 @@ h3{
     border-radius: 5px 5px 0px 0px;
     margin: 10px 20px -1px 20px;
     font-size: 1.5em;
+}
+
+.rolagem{
+    overflow-y: scroll;
+    min-width: 300px;
+    min-height: 200px;
 }
 
 footer{
